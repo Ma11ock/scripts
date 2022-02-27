@@ -1,0 +1,9 @@
+#!/usr/bin/env zsh
+
+# Get all installed packages on a system; prep for a new installation.
+
+pacman -Qe | sort > /tmp/pacge.tmp
+pacman -Qm | sort > aur.list
+
+comm -23 /tmp/pacget.tmp aur.list > pac.list
+
