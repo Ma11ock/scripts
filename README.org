@@ -1,0 +1,7 @@
+#+TITLE: My scripts 
+#+EMAIL: ryan@ryanmj.xyz
+#+AUTHOR: Ryan Jeffrey
+
+* What
+My Linux scripts. They make simple tasks easier.
+
